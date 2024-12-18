@@ -10,10 +10,7 @@ def is_perfect_number(n, i=1, sum_divisors=0):
 # Запрос числа у пользователя
 user_input = int(input("Введите число: "))
 result = is_perfect_number(user_input)
-if result:
-    print(result, "является совершенным числом.")
+if result == True:
+    print("True")
 else:
-    print(result, "не является совершенным числом.")
-
-
-
+    print("False")
